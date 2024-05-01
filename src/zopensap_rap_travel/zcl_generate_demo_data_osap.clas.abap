@@ -10,7 +10,10 @@ CLASS zcl_generate_demo_data_osap DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_generate_demo_data_osap IMPLEMENTATION.
+
+
+CLASS ZCL_GENERATE_DEMO_DATA_OSAP IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -72,5 +75,4 @@ CLASS zcl_generate_demo_data_osap IMPLEMENTATION.
 
     out->write( 'Travel and booking demo data inserted.').
   ENDMETHOD.
-
 ENDCLASS.

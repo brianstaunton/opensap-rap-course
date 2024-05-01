@@ -78,7 +78,7 @@ ENDCLASS.
 
 
 
-CLASS zcm_rap_osap IMPLEMENTATION.
+CLASS ZCM_RAP_OSAP IMPLEMENTATION.
 
 
   METHOD constructor ##ADT_SUPPRESS_GENERATION.
@@ -98,5 +98,4 @@ CLASS zcm_rap_osap IMPLEMENTATION.
     me->customerid = |{ customerid ALPHA = OUT }|.
     me->agencyid = |{ agencyid ALPHA = OUT }|.
   ENDMETHOD.
-
 ENDCLASS.

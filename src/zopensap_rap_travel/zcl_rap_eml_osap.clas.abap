@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_rap_eml_osap IMPLEMENTATION.
+CLASS ZCL_RAP_EML_OSAP IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
@@ -138,4 +138,3 @@ CLASS zcl_rap_eml_osap IMPLEMENTATION.
     out->write( 'Delete done' ).
   ENDMETHOD.
 ENDCLASS.
-

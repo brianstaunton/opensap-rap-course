@@ -4,7 +4,6 @@
   <asx:values>
    <DEVC>
     <CTEXT>Extension scenario - Travel List Report App</CTEXT>
-    <TPCLASS>X</TPCLASS>
    </DEVC>
   </asx:values>
  </asx:abap>
